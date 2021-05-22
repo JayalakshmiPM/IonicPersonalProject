@@ -1,0 +1,59 @@
+.grid-container{
+    height:60px;
+
+}
+.grid-container ion-label{
+    text-align: justify;
+    width: auto;
+ 
+}
+.grid-container1{
+    display:grid;
+    justify-content: space-between;
+}
+.grid-container1 ion-item ion-label{
+    display: grid;
+     font-size: 10px;
+    padding-right: 20px;
+
+    
+}
+ion-list ion-item{
+    display: inline;
+}
+.item
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.item div{
+    padding:20px;
+    margin:auto;
+}
+ion-searchbar ion-icon {
+    right: 16px !important;
+    left: auto !important;
+  }
+  .form{
+      display: grid;
+      margin: 60px;
+
+  }
+
+    
+
+    ion-input{
+        border-radius: 10px !important;
+        // padding-right: 40px;
+        font-size: 0.9em;
+        border: 1px solid #f1f1f1 !important;
+        --background: rgb(219,219,219) !important;
+        /* height: 10%; */
+        /* width: 41%; */
+        max-width: 85vw; // this is applying perfectly
+        max-height: 10vh;
+        margin:20px;
+    }
+   
